@@ -1,0 +1,108 @@
+fieldset { background: #DDD; border: 1px solid #000; padding: 1em; margin-bottom: 1em; }
+
+fieldset legend { font-weight: bold; padding: 2px 8px; }
+
+#lnjcm-crawling-status {
+	font-style: italic;
+	margin-left: 1em;
+	font-size: .9em;
+}
+
+div.lnjcm-filters ul {
+	margin: 0;
+}
+
+div.lnjcm-filters ul li {
+	display: block;
+	margin-left: 1em;
+}
+div.lnjcm-filters ul li.pagination, div.lnjcm-filters ul li.keyword, div.lnjcm-filters ul li.filters {
+	float: right;
+	display: block;
+}
+div.lnjcm-filters #lnjcm_medias_keyword {
+	width: 150px;
+}
+
+.lnjcm-media {
+	width: 30%;
+	height: 200px;
+	border: 1px solid #777;
+	margin: 1em 1em 1em 0;
+	padding: 1em;
+	float: left;
+	position: relative;
+}
+.lnjcm-media p {
+	font-size: .9em;
+	word-wrap: break-word;
+}
+.lnjcm-media h3 {
+	margin-top: 0;
+}
+.lnjcm-media img {
+	float: right;
+	margin: 0 0 1em 1em;
+	border-radius: 6px;
+	width: 150px;
+}
+.lnjcm-media .lnjcm-tags {
+	border: 1px solid #777;
+	border-radius: 6px;
+	background: #DDD;
+	width: 86%;
+	font-style: italic;
+	font-weight: bold;
+	padding: .8em;
+	position: absolute;
+	bottom: 1%;
+	left: 4%;
+}
+
+#fcum .result {
+	display: inline-block;
+	margin-left: 0.5em;
+}
+
+.lnjcm-nav .page-numbers {
+	display: inline-block;
+	min-width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	padding: .4em;
+	font-size: 1em;
+}
+.lnjcm-nav .page-numbers.current {
+	border: 1px solid #DDD;
+}
+
+.lnjcm-loading-bar {
+	border-radius: 6px;
+	display: block;
+	width: 100%;
+	border: 1px solid #000;
+	height: 1em;
+	margin-top: 0.5em;
+}
+.lnjcm-loading-bar > span {
+	border-radius: 5px;
+	background: #00a0d2;
+	display: block;
+	width: 0;
+	height: 100%;
+}
+
+.lnjcm-popin {
+	display: none;
+}
+.thickbox.lnjcm-thickbox-launcher {
+	display: none;
+}
+.media_page_clean-unused-medias #TB_ajaxContent ul, .upload-php #TB_ajaxContent ul {
+	list-style-type: inherit;
+	margin-left: 1.4em;
+}
+.media_page_clean-unused-medias #TB_ajaxContent ul ul, .upload-php #TB_ajaxContent ul ul {
+	margin-top: 0.5em;
+}
